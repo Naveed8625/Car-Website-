@@ -1,0 +1,15 @@
+.d1{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(27, 26, 31);
+}
+.h1{
+    position: absolute;
+    color: rgb(36, 246, 3);
+    padding: 10px;
+    padding-left: 25px;
+}
+.img1{
+    margin-left: 990px;
+}
+
