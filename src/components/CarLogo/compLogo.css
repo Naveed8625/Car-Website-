@@ -1,0 +1,24 @@
+.allMainDiv{ 
+    margin-top: 20px;
+    height: 240px;
+    width: 100%;
+    background-color: white;}
+
+.logoMainDiv{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+.logoh3{margin-right: 950px;}
+
+.logo1{
+    margin: 10px 5px 0px 75px;
+height: 129px;
+width: 130px;
+background-color: white;
+}
+.img{height: 100px;
+width: 130px;
+}

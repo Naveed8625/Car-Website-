@@ -3,6 +3,8 @@ import Table from 'react-bootstrap/Table';
 
 
 
+
+
 function TheoryInfo(){
 return(
 <div className={style.D1}>

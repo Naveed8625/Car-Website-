@@ -5,6 +5,9 @@ import TheoryInfo from "../components/theoryInfoPg/TheoryInfo"
 import Card1 from "../components/cards/Card1"
 import AddPage from "../components/Add-Page/AddPage"
 import Card2 from "../components/cards/Card2"
+import Complogo from "../components/CarLogo/Comp-logo"
+import ChargeStation from "../components/Charg-Station/ChargeSta"
+import KeyCompo from "../components/KeyComponent/KeyCompo"
 
 
 
@@ -20,9 +23,9 @@ function Home() {
             <Card1 />
             <AddPage/>
             <Card2/>
-
-
-
+            <Complogo/>
+            <ChargeStation/>
+            <KeyCompo/>
         </div>
     )
 }

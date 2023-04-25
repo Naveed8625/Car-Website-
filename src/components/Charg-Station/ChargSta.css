@@ -1,0 +1,35 @@
+.chargStMain {
+    height: 420px;
+    width: 100%;
+    background-color: rgb(254, 157, 157);
+    margin: 0px 0px 0px 0px;
+}
+
+.imgdiv{ display: grid;
+grid-template-columns: 190px 190px 190px 190px ;
+grid-gap: 10px;
+margin-left: 40px;
+}
+
+.chargdiv {
+    height: 90px;
+    background-color: rgb(246, 110, 110);
+}
+
+.chargH3 {
+    position: absolute;
+    margin: 40px 0px 0px 60px;
+}
+
+.city1{height: 130px;
+width: 140px;
+background-color: white;
+margin: 10px 0px 0px 25px;}
+
+.charImg1{height: 100px;
+width: 100px;}
+
+.charImgDelhi{height: 70px;
+    width: 80px;
+margin-top: 20px;
+margin-bottom: 9px;}

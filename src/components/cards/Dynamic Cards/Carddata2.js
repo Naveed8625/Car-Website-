@@ -29,7 +29,7 @@ function Data2() {
             price: "₹ 1.55 - 2.45 Cr*"
         },
         {
-            itemName: "Mahindra XUV400 EV",
+            itemName: "Mahindra XUV400EV",
             foodImage: "./Dyn-Card-img/Mahindra XUV400 EV.png",
             price: "₹ 15.99 - 18.99 Lakh*"
         },

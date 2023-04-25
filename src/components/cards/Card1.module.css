@@ -44,10 +44,10 @@ margin-top: 35px;}
 
 .maincard2{
     position: relative;
-    height: 750px;
+    height: 650px;
     width: 100%;
     background-color: rgb(246, 18, 18);
-display: flex;
+    display: flex;
 }
 
 .cardbig2{
