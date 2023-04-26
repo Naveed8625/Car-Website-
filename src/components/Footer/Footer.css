@@ -1,0 +1,10 @@
+.footermainD{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    position:absolute;
+    display: flex;
+}
+
+.footerD1{margin: 20px 0px 0px 16%;
+font-family: "" sans-serif  ;}

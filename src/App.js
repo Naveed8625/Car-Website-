@@ -5,6 +5,7 @@ import Home from './home-page/Home';
 import Navbar1 from './components/navbar/Navbar1'
 import Navbar2 from './components/navbar/Navbar2';
 import InHome from './components/navbar/InHome';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
 
       </Routes> }
 
-        
- {/* footer */}
+ <Footer />       
+ 
 </div>
   );
 }
