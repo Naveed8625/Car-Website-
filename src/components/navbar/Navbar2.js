@@ -23,11 +23,11 @@ function Navbar2() {
       <nav class="nav">
         <a onMouseOver={hover} onMouseOut={out} style={{ color: color }} href="/" class="logo">New Cars</a>
 
-        <div class="hamburger">
+        {/* <div class="hamburger">
           <span class="line"></span>
           <span class="line"></span>
           <span class="line"></span>
-        </div>
+        </div> */}
 
         <div class="nav__link hide">
           <NavLink to="home">home</NavLink>
@@ -36,14 +36,14 @@ function Navbar2() {
           <NavLink to="Booking">Booking</NavLink>
         </div>
 
-        <div class="dropdown">
+        {/* <div class="dropdown">
           <button class="dropbtn">Dropdown</button>
           <div class="dropdown-content">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
-        </div>
+        </div> */}
 
 
       </nav>

@@ -4,7 +4,14 @@
     background-color: white;
     position:absolute;
     display: flex;
+    box-shadow: 0px 1px 2px 2px black;
+
 }
 
 .footerD1{margin: 20px 0px 0px 16%;
-font-family: "" sans-serif  ;}
+font-family: "" sans-serif  ;
+border-radius: 1rem;
+}
+
+.footerD1 h4{text-decoration: underline;
+}

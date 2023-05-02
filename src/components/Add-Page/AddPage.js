@@ -3,19 +3,20 @@ import "../Add-Page/AddPage.css"
 
 
 
- function AddPage() {
+function AddPage() {
   return (
 
     <div className="AdpgDmain">
 
-    <div className="addDiv">
+      <div className="addDiv">
+         <img class="" src="./AddPage/manThinkCar.png" height="210px" width="280px"/>
+      </div>
 
-   <img decoding="async" class="man imageTransition active" src="https://stimg.cardekho.com/pwa/img/Recommender/man-thinking.png" loading="eager" data-lazy="true"  height="150px" width="130px"/>
-   <img decoding="async" class="ring imageTransition active" src="https://stimg.cardekho.com/pwa/img/Recommender/circle.svg" loading="eager" data-lazy="true" />
-   <img decoding="async" class="brand imageTransition active" src="https://stimg.cardekho.com/pwa/img/Recommender/Brand_.svg" loading="eager" data-lazy="true" />
-  
-  </div>
-
+        <div className="addDiv2">
+           <img className="addimg2" src="./AddPage/AddCar2.png" height={"50"} width={"300px"}></img>
+           <h2>Not Sure, Which car to buy?</h2>
+           <h5>Let us help you find the dream car</h5>
+        </div>
     </div>
   )
 }
