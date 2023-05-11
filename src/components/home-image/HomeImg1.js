@@ -54,10 +54,10 @@ function Homeimg1() {
                     />
 
                     <Carousel.Caption>
-                        <h3>Advantages Of Electric Cars</h3>
-                        <p>
-                            
-                        </p>
+                        <h1 style={{color:"black"}}>Advantages Of Electric Cars</h1>
+                        <h3 style={{color:"black"}}>
+                           More Advantages & Less Disadvantages
+                        </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
 

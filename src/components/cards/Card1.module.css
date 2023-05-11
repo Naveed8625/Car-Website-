@@ -7,7 +7,7 @@
 .Cardbig{
     height: 700px;
     width: 900px;
-    background-color: rgb(255, 195, 195);
+    background-color: rgb(198, 242, 242);
     margin: 20px;
     border-radius: 1rem;
     margin-left: 40px;
@@ -17,7 +17,7 @@
 .Cardsmall{
     height: 700px;
     width: 300px;
-    background-color:  rgb(255, 195, 195);
+    background-color:  rgb(198, 242, 242);
     margin-top: 20px;
     margin-left: 50px;
     border-radius: 1rem;
@@ -52,7 +52,7 @@ margin-top: 35px;}
 .cardbig2{
         height: 600px;
         width: 900px;
-        background-color: rgb(255, 195, 195);
+        background-color: rgb(198, 242, 242);
         margin: 20px;
         border-radius: 1rem;
         margin-left: 40px;
@@ -65,7 +65,7 @@ margin-top: 35px;}
 .cardsmall2{
     height: 600px;
     width: 300px;
-    background-color: rgb(255, 195, 195);
+    background-color: rgb(198, 242, 242);
     margin-top: 20px;
     margin-left: 50px;
     border-radius: 1rem;   

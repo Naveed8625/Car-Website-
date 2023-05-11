@@ -4,7 +4,8 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className='footermainD'>
+        <div className='mainfooter1'>       
+             <div className='footermainD'>
 
             <div className='footerD1'>
                 <h4>OVERVIEW</h4>
@@ -35,6 +36,8 @@ function Footer() {
 
 
         </div>
+        </div>
+
     )
 }
 

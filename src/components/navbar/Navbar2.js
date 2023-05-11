@@ -23,11 +23,7 @@ function Navbar2() {
       <nav class="nav">
         <a onMouseOver={hover} onMouseOut={out} style={{ color: color }} href="/" class="logo">New Cars</a>
 
-        {/* <div class="hamburger">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </div> */}
+       
 
         <div class="nav__link hide">
           <NavLink to="home">home</NavLink>
@@ -44,7 +40,7 @@ function Navbar2() {
             <a href="#">Link 3</a>
           </div>
         </div> */}
-
+       
 
       </nav>
 
