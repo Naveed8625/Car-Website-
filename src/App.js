@@ -1,12 +1,14 @@
-//import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './home-page/Home';
 import Navbar1 from './components/navbar/Navbar1'
 import Navbar2 from './components/navbar/Navbar2';
-import InHome from './components/navbar/InHome';
 import Footer from './components/Footer/Footer';
-
+import AllCars from './components/cards/AllCars';
+// import Booking from './components/cards/Booking';
+import BookingCart from './components/cards/Booking-Cart';
 
 function App() {
   return (
@@ -18,11 +20,16 @@ function App() {
       {<Routes>
 
         <Route path="/" element={<Home/>} />
-        <Route path="home" element={ <Home/> } />
-        <Route path="about" element={<>about</>} />
-        <Route path="contact" element={<>contact</>} />
-        <Route path="Booking" element={<InHome/>} />
-        <Route path="Help" element={<h1> Help </h1>} />
+
+        <Route path="All Cars" element={<AllCars />} />
+
+        <Route path="/about" element={<h1></h1>} />
+
+        <Route path="Booking" element={<BookingCart/>} />
+        
+
+        {/* <Route path="error" element={<h1> Error </h1>} /> */}
+
 
       </Routes> }
 

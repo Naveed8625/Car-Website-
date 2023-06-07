@@ -5,17 +5,17 @@
     display: flex;
 }
 .Cardbig{
-    height: 700px;
+    height: 695px;
     width: 900px;
     background-color: rgb(198, 242, 242);
     margin: 20px;
     border-radius: 1rem;
     margin-left: 40px;
-
+ overflow: hidden;
 }
 
 .Cardsmall{
-    height: 700px;
+    height: 695px;
     width: 300px;
     background-color:  rgb(198, 242, 242);
     margin-top: 20px;
@@ -57,7 +57,7 @@ margin-top: 35px;}
         border-radius: 1rem;
         margin-left: 40px;
         position: relative;
-    
+    overflow: hidden;
 }
 
 /* --------------------------    small card start   --------------------- */

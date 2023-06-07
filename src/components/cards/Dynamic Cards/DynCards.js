@@ -1,22 +1,24 @@
+import React from "react";
 import styleCard from "./card.module.css"
 
 
-export const DynamicCard = ({ CardData }) => {
+
+export const DynamicCard = ({ product, addToCart}) => {
+
  return (
 
     <div className={styleCard.cardContainer}>
-      {CardData.map((value, index) => {
+      {product.map((item,index) => {
         return (
           <div className={styleCard.cardBox}>
-
-            <img src={value.foodImage} alt="" />
+            <img src={item.CarImage} alt="" />
             <div className={styleCard.contentDiv}>
-              <h4>{value.itemName}</h4>
-              <h5 >{value.price}</h5>
+              <h4>{item.itemName}</h4>
+              <h5 >{item.price}</h5>
             </div>
-
+      
             <div>
-              <button className={styleCard.buttonDiv}> More Details </button>
+              <button  className={styleCard.buttonDiv} onClick={()=> addToCart(item)} > Booking Cart </button>
             </div>
 
           </div>

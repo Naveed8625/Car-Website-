@@ -1,21 +1,26 @@
 import React from 'react'
 import './Footer.css'
+import { useNavigate } from 'react-router-dom'
+
 
 
 function Footer() {
+// const 
+const Navigate=useNavigate()
+
     return (
         <div className='mainfooter1'>       
              <div className='footermainD'>
 
-            <div className='footerD1'>
+              <div className='footerD1'>
                 <h4>OVERVIEW</h4>
-                <p>About us</p>
+                <p onClick={()=>{Navigate(`/about`)}}>About us</p>
                 <p>FAQs</p>
                 <p>Privacy Policy</p>
                 <p>Terms & Conditions </p>
                 <p>Corporate Policies</p>
                 <p>Investors</p>
-            </div>
+              </div>
 
             <div className='footerD1'>
                 <h4>OTHERS</h4>
