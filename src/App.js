@@ -7,8 +7,8 @@ import Navbar1 from './components/navbar/Navbar1'
 import Navbar2 from './components/navbar/Navbar2';
 import Footer from './components/Footer/Footer';
 import AllCars from './components/cards/AllCars';
-// import Booking from './components/cards/Booking';
-import BookingCart from './components/cards/Booking-Cart';
+import Booking from './components/cards/Booking';
+// import BookingCart from './components/cards/Booking-Cart';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
 
         <Route path="/about" element={<h1></h1>} />
 
-        <Route path="Booking" element={<BookingCart/>} />
+        <Route path="Booking" element={<Booking/>} />
         
 
         {/* <Route path="error" element={<h1> Error </h1>} /> */}

@@ -58,7 +58,10 @@
   }
   
   .nav__link a:hover {
-    background-color: rgb(246, 38, 38);
+    background-color: rgb(255, 8, 8);
+    scale: 1.1;
+  color: black;
+  
   }
   
   .hide {

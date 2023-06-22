@@ -19,6 +19,8 @@ height: 129px;
 width: 130px;
 background-color: white;
 }
+.logo1:hover{  scale: 1.1;}
+
 .img{height: 100px;
 width: 130px;
 }

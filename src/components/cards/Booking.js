@@ -1,11 +1,13 @@
 import React from 'react'
+import "../cards/Booking.css"
+
 
 function Booking() {
   return (
     <div>
-        <div>
+        <div className='bookingDiv1'>
             <h1>Syed naveed ali</h1>
-            {/* <sup>{props.count}</sup> */}
+            
         </div>
     </div>
   )

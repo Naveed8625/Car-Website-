@@ -12,4 +12,8 @@
 .img1{
     margin-left: 990px;
 }
-
+@media screen and (min-width: 601px) and 
+(max-widht:1200px){
+ .h1{width: 600px;
+background-color: red;}   
+}

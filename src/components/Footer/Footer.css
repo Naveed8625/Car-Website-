@@ -18,6 +18,8 @@
 font-family: "" sans-serif  ;
 border-radius: 1rem;
 }
+h4:hover{  scale: 1.1;}
+p:hover{  scale: 1.1;}
 
 .footerD1 h4{text-decoration: underline;
 }
